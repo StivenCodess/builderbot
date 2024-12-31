@@ -81,7 +81,7 @@ class BaileysProvider extends ProviderClass<WASocket> {
                 req['globalVendorArgs'] = this.globalVendorArgs
                 return next()
             })
-            .get('/', this.indexHome)
+            //.get('/', this.indexHome)
     }
 
     protected afterHttpServerInit(): void {}
